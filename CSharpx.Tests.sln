@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1D792A5-AE32-4651-AEA9-23E689096745}"
+	ProjectSection(SolutionItems) = preProject
+		CSharpx.Tests1.vsmdi = CSharpx.Tests1.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpx.TypeProviders.Regex.Tests", "tests\CSharpx.TypeProviders.Regex.Tests\CSharpx.TypeProviders.Regex.Tests.csproj", "{EEBECEFB-9110-408D-9B4D-FFEF45027F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpx.TypeProviders.Regex", "src\CSharpx.TypeProviders.Regex\CSharpx.TypeProviders.Regex.csproj", "{91D83D14-CCB0-4192-99C9-1737C3F7F481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpx.TypeProviders", "src\CSharpx.TypeProviders\CSharpx.TypeProviders.csproj", "{E57BCD77-FD61-409A-AE97-0928638162F1}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CSharpx.Tests1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEBECEFB-9110-408D-9B4D-FFEF45027F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBECEFB-9110-408D-9B4D-FFEF45027F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBECEFB-9110-408D-9B4D-FFEF45027F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBECEFB-9110-408D-9B4D-FFEF45027F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D83D14-CCB0-4192-99C9-1737C3F7F481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D83D14-CCB0-4192-99C9-1737C3F7F481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D83D14-CCB0-4192-99C9-1737C3F7F481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D83D14-CCB0-4192-99C9-1737C3F7F481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57BCD77-FD61-409A-AE97-0928638162F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57BCD77-FD61-409A-AE97-0928638162F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57BCD77-FD61-409A-AE97-0928638162F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57BCD77-FD61-409A-AE97-0928638162F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
